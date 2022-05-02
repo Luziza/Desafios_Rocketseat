@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Merriweather+Sans:ital,wght@1,500;1,600&display=swap');
+body{
+    margin: 0;
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+        "main aside"    
+    ;
+    grid-template-rows: 1fr;
+    grid-template-columns: 25% 1fr;
+    background-color: #18171D;
+    color: #BC6FF1;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+main{
+    grid-area: main;
+    /* background-color: brown; */
+}
+
+.box_foto{
+    background-color: #52057B;
+    height: 240px;
+    margin: 6%;
+    border-radius: 15px;
+    box-shadow: 5px 2px 2px #230334;
+}
+
+.perfil{
+    height: 100px;
+    width: 100px;
+    margin-left: 30%;
+    margin-top: 4%;
+    border-radius: 70px;
+}
+
+.box_info{
+    background-color: #52057B;
+    height: 380px;
+    margin: 6%;
+    border-radius: 15px;
+    box-shadow: 5px 2px 2px #230334;
+    
+}
+
+.informacoes{
+    border-collapse: separate;
+    border-spacing: 0 28px;
+    margin: 6%;
+    font-size: 15px;
+}
+
+.box_3{
+    background-color: #52057B;
+    width: 300px;
+    height: 190px;
+    border-radius: 15px;
+    box-shadow: 5px 2px 2px #230334;
+}
+
+#tecnologia{
+    border-collapse: separate;
+    border-spacing: 0 8px;
+    margin-top: -8;
+    margin-left: 15px;
+}
+.tec{
+    background-color: #230334;
+    border-radius: 13px;
+    line-height: 35px;
+    font-size: 10px;
+    border-left-width: 2;
+    min-width: 90px;
+    
+
+}
+
+aside{
+    grid-area: aside;
+    /* background-color: blue; */
+}
+
+.box_projetos{
+    background-color: #52057B;
+    margin: 3%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    box-shadow: 5px 2px 2px #230334;
+}
+
+.caixas{
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+}
+.caixa1{
+    background-color: #52057B;
+    border-radius: 15px;
+    margin-right: 1%;
+    box-shadow: 5px 2px 2px #230334;
+}
+
+.caixa2{
+    background-color: #52057B;
+    border-radius: 15px;
+    box-shadow: 5px 2px 2px #230334;
+}
+
+.separar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_erro{
+    background-color: #52057B;
+    margin: 3%;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 5px 2px 2px #230334;
+}
+
+.imagem{
+    margin: 5%;
+}
+
+.box_post{
+    background-color: #52057B;
+    margin: 3%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    box-shadow: 5px 2px 2px #230334;
+}
