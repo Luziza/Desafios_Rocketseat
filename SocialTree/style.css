@@ -1,0 +1,15 @@
+*{
+    color: white;
+}
+.retangulo{
+    background-color: grey;
+    width: 400px;
+    
+}
+
+.link1{
+    width: 50px;
+    border: 1px solid;
+    border-color: #BB99DD;
+    padding: 5px 10% ;
+}
