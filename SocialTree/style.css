@@ -1,15 +1,48 @@
-*{
-    color: white;
+body{
+    color: #BB99DD;
+    font-family: 'Akshar', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: #FAF7FD;
+    height: 70vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
 .retangulo{
-    background-color: grey;
-    width: 400px;
+    width: 350px;
+    height: 370px;
     
 }
 
-.link1{
+
+.link{
     width: 50px;
     border: 1px solid;
     border-color: #BB99DD;
-    padding: 5px 10% ;
+    padding: 10px  30% ;
+    margin-bottom: 20px;
+    border-radius: 5%;
+
+    
 }
+
+.perfil{
+    padding-left: 35px ;
+
+
+    
+}
+
+#palavra{
+    padding-left: 80px ;
+    margin-bottom: 20px;
+}
+
+.imagens{
+    padding-left: 60px ;
+}
+
+
+
