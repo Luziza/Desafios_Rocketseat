@@ -1,0 +1,27 @@
+body{
+    background-color: #EAEAEA;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.tudo{
+    background-color: #FFFFFF;
+    width: 800px;
+    margin: 40px auto;
+    padding: 3px;
+    border-radius: 10px;
+    line-height: 30px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.imagem img{
+    text-align: center;
+    object-fit: cover;
+    border-radius: 10px;
+    width: 99%;
+    height: 150px;
+    padding: 3px;
+}
