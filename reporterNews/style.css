@@ -1,0 +1,84 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-areas: 
+    "esquerda direita" 
+
+    ;
+    grid-template-rows:  1fr;
+    grid-template-columns: 50% 1fr;
+    color: #E1E1E6;
+    font-family: 'Spartan', 'Work Sans', sans-serif;
+}
+
+.direita{
+    grid-area: direita;
+    background-color: blueviolet;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+.esquerda{
+    margin: 0;
+    grid-area: esquerda;
+    background-color: #121214;
+}
+
+h2{
+    color: #04D361;
+    margin-top: 50px;
+    
+}
+
+.frases{
+    padding-left: 40px;
+    
+}
+
+
+#form > fieldset {
+    border: none;
+    padding: 0;
+  }
+
+  fieldset > legend {
+    
+    font-weight: 700;
+    font-size: 0.87rem;
+    line-height: 1.18rem;
+    margin-left: 40px;
+  }
+  #email {
+    margin-top: 1.06rem;
+    width: 798px;
+    display: flex;
+    
+  }
+
+  #email > input {
+    width: 798px;
+    border: none;
+    border-left: solid 5px #04D361;
+    filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+    font-size: 0.75rem;
+    line-height: 0.87rem;
+    padding: 10px;
+    margin-left: 40px;
+    
+  }
+
+  input:focus { /*retirar a borda do input quando clicado*/
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+#email > button {
+    width: 48px;
+    height: 48px;
+    border: none;
+    background-color: blueviolet;
+    z-index: 1;
+  }
