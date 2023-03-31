@@ -1,0 +1,36 @@
+body{
+        height: 100vh;
+        margin: 0;
+        display: grid;
+        grid-template-areas: 
+        "top top"
+        "esquerda rocket"
+        "bottom bottom"
+        ;
+
+        grid-template-rows: 40px 1fr 40px;
+        grid-template-columns: 50% 1fr;
+}
+
+.top{
+    grid-area: top;
+    background-color: blue;
+
+}
+
+.esquerda{
+    grid-area: esquerda;
+    background-color: blueviolet;
+}
+
+.rocket{
+    grid-area: rocket;
+    background-color: brown;
+  
+}
+
+
+.bottom{
+    grid-area: bottom;
+    background-color: chocolate;
+}
