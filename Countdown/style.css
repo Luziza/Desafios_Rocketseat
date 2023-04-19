@@ -8,29 +8,38 @@ body{
         "bottom bottom"
         ;
 
-        grid-template-rows: 40px 1fr 40px;
-        grid-template-columns: 50% 1fr;
+        grid-template-rows: 20% 59% 20%;
+        grid-template-columns: 57% 1fr;
+        font-family: 'Poppins', sans-serif;
 }
 
 .top{
     grid-area: top;
-    background-color: blue;
+}
 
+.top img{
+    object-fit: cover;
+    width: 100%;
 }
 
 .esquerda{
     grid-area: esquerda;
-    background-color: blueviolet;
 }
 
 .rocket{
     grid-area: rocket;
-    background-color: brown;
-  
 }
-
 
 .bottom{
     grid-area: bottom;
-    background-color: chocolate;
+}
+
+.bottom img{
+    object-fit: cover;
+    width: 100%;
+}
+
+h1{
+    color: #6C63FF;
+    text-align: center;
 }
