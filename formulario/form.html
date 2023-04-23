@@ -10,7 +10,33 @@
 </head>
 <body>
     <div id="esquerdo">
-        a
+        <div id="formulario">
+            <h3>Faça seu login</h3>
+            <h4>Entre com suas informações de cadastro</h4>
+            <form>
+                <label> Email</label>
+                <br>
+                <input type="email"
+                size="30"
+                placeholder="Digite seu email">
+                <br>
+                <label>Senha</label>
+                <br>
+                <input type="password"
+                size="30"
+                placeholder="Digite sua sonha"
+                pattern = "[0-9a-zA-Z]{4,8}"
+                title="Digite numeros de 0 a 9 ou letras de A a Z. 
+                Minimo 4 e máximo 8 caracteres">
+                <br>
+
+                <label>Lembre-me</label>
+                <input type="checkbox">
+                <h5 style="color: #ffc632">Esqueci minha senha</h5>
+                <button type="submit">Entrar</button>
+            </form>
+
+        </div>
     </div>
     <div id="direito">
         <img src="./imagens/side-image.jpg" height="100%" width="100%" >
