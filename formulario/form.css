@@ -66,6 +66,4 @@ input[type="checkbox"]:checked{
     background-color: #ffc632;
 }
 
-input[type="text"]{
-background-image:url(./imagens/mail.svg);
-}
+
