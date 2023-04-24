@@ -26,14 +26,14 @@ body{
 
 #formulario{
     background-color: #24221f;
-    margin: 10% 14%;
-    padding: 3px;
+    margin: 10% 17%;
+    padding: 2px;
     border-radius: 10px;
     line-height: 30px;
 }
 
 form{
-    margin: 40px 50px;
+    margin: 20px 50px;
    
     
 }
@@ -46,7 +46,13 @@ input{
     background-color: #24221f;
     border-radius: 5px;
     padding: 5px 5px;
+    text-indent: 25px;
+    cursor: pointer;
     
+}
+
+label{
+    cursor: pointer;
 }
 
 button{
@@ -55,15 +61,41 @@ button{
     border-radius: 3px;
     padding: 16px 32px;
     cursor: pointer;
-    width: 100%
+    width: 90%
 }
 
-input:focus {
-    outline-color: #ffc632 
+input[type="email"]:focus {
+    outline-color: #ffc632;
+    background: url(./imagens/mail-focus.svg) no-repeat scroll 7px;
+    
+}
+
+input[type="password"]:focus {
+    outline-color: #ffc632;
+    background: url(./imagens/lock-focus.svg) no-repeat scroll 7px;
+    
 }
 
 input[type="checkbox"]:checked{
+    background: url(./imagens/check.svg);
     background-color: #ffc632;
 }
+
+input[type="email"]{
+    background: url(./imagens/mail.svg) no-repeat scroll 7px;
+}
+
+input[type="password"]{
+    background: url(./imagens/lock.svg) no-repeat scroll 7px;
+}
+
+input[type="checkbox"]{
+    appearance: none;
+    border: 1px solid black ; 
+    width: 20px;
+    height: 20px;
+
+}
+
 
 
