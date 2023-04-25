@@ -26,7 +26,7 @@ body{
 
 #formulario{
     background-color: #24221f;
-    margin: 10% 17%;
+    margin: 10% 19%;
     padding: 2px;
     border-radius: 10px;
     line-height: 30px;
@@ -95,6 +95,10 @@ input[type="checkbox"]{
     width: 20px;
     height: 20px;
 
+}
+
+#check{
+    display: flex;
 }
 
 
