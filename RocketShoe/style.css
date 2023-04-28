@@ -1,0 +1,43 @@
+:root {
+    --button: #FF0000;
+    --main-background:  #C4C4C4;
+    --background: #E5E5E5;
+    --text: #000;
+    --footer: #000;
+    --text-description: #9C9696;
+  }
+
+body{
+    margin: 0;
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+        "esquerdo direito"
+        "footer footer"    
+    ;
+    grid-template-rows:85% 15%;
+    grid-template-columns: 40% 1fr;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#esquerdo{
+    background-color: #E5E5E5;
+}
+
+#direito{
+    background-color: #9C9696;
+}
+
+footer{
+    display: flex;
+    grid-area: footer;
+    background-color: #E5E5E5;
+    width: 100%;
+    justify-content: space-around;
+}
