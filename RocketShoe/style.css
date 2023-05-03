@@ -47,6 +47,7 @@ footer{
 
 h5{
     margin-top: 6%;
+    cursor: pointer;
 }
 
 #explore{
@@ -56,6 +57,7 @@ h5{
     width: 30%; 
     height: 100%; 
     margin-top: 0;
+    cursor: pointer;
 }
 
 button{
