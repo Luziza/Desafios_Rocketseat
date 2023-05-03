@@ -17,6 +17,8 @@ body{
     ;
     grid-template-rows:100% 25%;
     grid-template-columns: 40% 1fr;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 header{
@@ -54,4 +56,45 @@ h5{
     width: 30%; 
     height: 100%; 
     margin-top: 0;
+}
+
+button{
+    color: white;
+    background-color: #FF0000;;
+    border: none;
+    padding: 16px 32px;
+    cursor: pointer;
+    width: 200px;
+    height: 70px;
+}
+
+#itens{
+    margin: 15%;
+    margin-top: 25%;
+}
+
+#texto{
+    line-height: 20px;
+    font-size:x-large;
+}
+
+#imagem_tenis{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#tenis_3{
+    width: 200px;
+    height: 150px;
+    padding-bottom: 5px;
+}
+
+input{
+    margin-top: 1.5%;
+    width: 150px;
+    height: 20px;
+    background: url(./imagens/icon-search.svg) no-repeat scroll 7px white;
+    text-indent: 30px;
+    cursor: pointer;
 }
