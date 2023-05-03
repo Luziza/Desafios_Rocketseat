@@ -22,7 +22,7 @@ body{
 header{
     position: fixed;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
 }
 
@@ -40,4 +40,18 @@ footer{
     background-color: #E5E5E5;
     justify-content: space-between;
     width: 100%;
+
+}
+
+h5{
+    margin-top: 6%;
+}
+
+#explore{
+    display: flex;
+    background-color: black; 
+    color: white; 
+    width: 30%; 
+    height: 100%; 
+    margin-top: 0;
 }
